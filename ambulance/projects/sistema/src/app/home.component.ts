@@ -1,9 +1,18 @@
 import { Component } from "@angular/core";
 
 /*Todas las vistas son componentes en Angualr */
-@Component({
+
+/*Selector de etiqueta */
+/*@Component({
     selector: "amb-home",
-    template : "<h1>Home</h1>"
+    template : "<h1>Home Page</h1>"
+})
+*/
+
+/*Selector de clase */
+@Component({
+    selector: ".amb-home",
+    template : "<h1>Home Page</h1>"
 })
 
 //export es como decir que es publica
