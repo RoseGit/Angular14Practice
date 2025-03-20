@@ -5,7 +5,7 @@ import { Component } from "@angular/core";
 /*Selector de etiqueta */
 @Component({
     selector: "amb-home",
-    template : "<h1>Home Page</h1>",
+    template : "<h1>Home Page</h1><span>{{title}}</span>",
     styles:['h1{ color:red; font-family:Verdana}', 'h1{font-size:150px}']
 })
 
@@ -23,4 +23,6 @@ import { Component } from "@angular/core";
 })*/
 
 //export es como decir que es publica
-export class HomeComponent{}
+export class HomeComponent{
+    title = 'Ambulance'
+}
