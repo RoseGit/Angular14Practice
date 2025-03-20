@@ -10,8 +10,14 @@ import { Component } from "@angular/core";
 */
 
 /*Selector de clase */
-@Component({
+/*@Component({
     selector: ".amb-home",
+    template : "<h1>Home Page</h1>"
+})*/
+
+/*Selector de atributo */
+@Component({
+    selector: "[amb-home]",
     template : "<h1>Home Page</h1>"
 })
 
