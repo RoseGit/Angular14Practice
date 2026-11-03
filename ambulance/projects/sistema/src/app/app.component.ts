@@ -12,7 +12,10 @@ import { LoginComponent } from './login/login.component';
 export class AppComponent {
   title = 'sistema';
 
+  titlesApp = ['App 0.1', 'App 0.2', 'App 0.3', 'App 0.4'];
+  /*
   titleApp01 = 'App 01';
   titleApp02 = 'App 02';
   titleApp03 = 'App 03';
+   */
 }
