@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 /*Todas las vistas son componentes en Angualr */
 
@@ -24,5 +24,9 @@ import { Component } from "@angular/core";
 
 //export es como decir que es publica
 export class HomeComponent{
-    title = 'Ambulance'
+  title = 'Ambulance';
+
+  /* Para poder pasarle parametros al componente <amb-home>
+  se usa el decorador @Input */
+  @Input() app_name = 'Valor default';
 }
