@@ -1,7 +1,11 @@
+<!--Uso de directriz de angular for para recorrer arreglo -->
+<amb-home *ngFor="let titleApp of titlesApp" [app_name]="titleApp"></amb-home>
+
+<!-- Asignacion manual desde un arreglo
 <amb-home [app_name]="titlesApp[0]"></amb-home>
 <amb-home [app_name]="titlesApp[1]"></amb-home>
 <amb-home [app_name]="titlesApp[2]"></amb-home>
-
+-->
 <!--
 <amb-home [app_name]="titleApp01"></amb-home>
 <amb-home [app_name]="titleApp02"></amb-home>

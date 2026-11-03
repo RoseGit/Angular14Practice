@@ -3,9 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { LoginComponent } from './login/login.component';
 
+//Para uso de directivas
+import { CommonModule } from '@angular/common';
+
 @Component({
   selector: 'amb-root',
-  imports: [RouterOutlet, HomeComponent, LoginComponent],
+  imports: [RouterOutlet, CommonModule, HomeComponent, LoginComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
