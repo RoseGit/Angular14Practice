@@ -11,4 +11,8 @@ import { LoginComponent } from './login/login.component';
 })
 export class AppComponent {
   title = 'sistema';
+
+  titleApp01 = 'App 01';
+  titleApp02 = 'App 02';
+  titleApp03 = 'App 03';
 }
